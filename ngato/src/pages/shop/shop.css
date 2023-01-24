@@ -1,0 +1,42 @@
+
+
+.shop__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.shop__item{
+    background: var(--color-bg-variant);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.shop__item:hover{
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.shop__item-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.shop__item h3{
+    margin: 1.2rem 0 2rem;
+    text-align: center;
+}
+
+.shop__item h5{
+    margin: 1.2rem 0 2rem;
+    text-align: center;
+}
+
+.shop__item-cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1 rem;
+    justify-content: center;
+}

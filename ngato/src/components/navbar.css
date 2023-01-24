@@ -22,13 +22,13 @@
 
 .links a:hover {
     text-decoration: none;
-    color: rgb(186, 234, 189);
+    color: var(--color-primary);
     margin-left: 20px;
     font-size: 25px;
 }
 
 .links a:active {
-    color: rgb(186, 234, 189);
+    color: var(--color-primary);
 }
 
 
