@@ -1,4 +1,4 @@
-import airm from '../../assets/airm.jpeg'
+import boots from '../../assets/airm.jpeg'
 import panda from '../../assets/panda.jpeg'
 import nike from '../../assets/nike.jpeg'
 import snek from '../../assets/snek.jpeg'
@@ -8,7 +8,7 @@ import shoe from '../../assets/shoe.jpeg'
 export const Items = [
     {
         id: 1,
-        image: airm,
+        image: boots,
         title: 'Nike Airmax 97',
          price: 9000
     },
