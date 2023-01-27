@@ -40,3 +40,32 @@
     margin-bottom: 1 rem;
     justify-content: center;
 }
+
+/*===== MEDIA QUERY FOR MEDUIM SCREENS  ========*/
+
+@media only screen and (max-width: 1024px) {
+    .shop__container{
+    grid-template-columns: repeat(2, 1fr);
+    }
+    .shop__item h3{
+    font-size: 1.8rem;
+    }
+    .shop__item h5{
+    font-size: 1.4rem;
+    }
+    }
+
+
+    /*===== MEDIA QUERY FOR SMALL SCREENS  ========*/
+
+@media only screen and (max-width: 780px) {
+    .shop__container{
+    grid-template-columns: repeat(1, 1fr);
+    }
+    .shop__item h3{
+    font-size: 1.5rem;
+    }
+    .shop__item h5{
+    font-size: 1.2rem;
+    }
+    }
